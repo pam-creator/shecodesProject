@@ -1,0 +1,125 @@
+h2{
+    position: relative;
+    top: 25px;
+    width: max-content;
+    
+
+    
+    
+}
+h1{
+  font-size: smaller;
+  
+}
+h3{
+  position: relative;
+  left: 300px;
+  top: -35px;
+  width: max-content;
+  border: 3px solid #FFD6E0;
+  padding: 5px;
+  background-color: #FFF7F9;
+  border-radius: 30px;
+  
+}
+
+.currentButton{
+  display: block;
+  float: left;
+  margin-top: auto;
+  width: max-content;
+  font-size: 20px;
+  border-radius: 10px;
+  top: 10px
+}
+
+.uv-index{
+  font-size: smaller;
+  padding: 5px;
+  color: #1C6EC5;
+}
+
+
+.searchbar {
+  position: relative;
+  top: 0;
+  margin-top: auto; 
+  width: max-content;
+  font-size: 25px;
+  
+  
+  
+
+}
+.button{
+  background-color: #E7F3DD;
+  border-radius: 10px;
+  color: #0b3562;
+
+}
+ul{
+  list-style: none;
+}
+.app-panel{
+    font-family: 'Dosis',
+      sans-serif;
+    border: 5px solid #6AA9DC;
+    padding: 5px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    
+}
+.currentCity{
+  padding: 30px;
+  position: relative;
+  width: max-content;
+  background-color: #F8FCFF;
+  color: #0b3562;
+  margin: 55px;
+ 
+  line-height: 25px;
+}
+#city{
+  font-weight: bolder;
+  font-size: 40px;
+}
+a{
+  font-size: 20px;
+}
+
+
+.rounded-circle{
+  border: 3px solid #6AA9DC;
+  
+  padding: 10px;
+  text-align: center;
+  background-color: #F8FCFF;
+}
+ul{
+  display: block;
+  text-align: left;
+  margin: 5px;
+  padding: auto 5px;
+}
+.col{
+  text-align: center;
+}
+.onClick{
+  text-decoration: none;
+  cursor: pointer;
+
+}
+.units{
+  position: relative;
+  bottom: 10px;
+  font-size: 20px;
+}
+  
+  
+
+.temp{
+  font-size: 40px;
+  line-height: 60px;
+}
+
