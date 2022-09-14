@@ -36,30 +36,39 @@
             <button id="currentButton">Current</button>
             
         </h1>
+
         <h2 class ="currentCity">
-               
                 <a id ="city">
                     Oslo
                 </a> 
                
                 <br /><a id="currentDate">
-                    day, time
+                    
                 </a>
-        <div class="temp">
-            <span id="temperature">19˚</span>
+            
+        <div class="current-weather">
+            <ul>
+            <li><span id="weather-description">overcast clouds</span></li>
+            <li><span id="temperature">9˚</span>
+        
             <span class="units">
-                <a class="onClick" id="celcius">C</a>
-                |
-                <a class="onClick" id="fahrenheit">F</a>
-            </span>
+                <a href="#" id="celsius-link" class="active">C</a> |
+                <a href="#" id="fahrenheit-link">F</a></span>
+            </span></ul>
 
+        
         </div>
                 
         </h2>
         
         <h3>
-           <div class="uv-index"> UV index <strong>4</strong><br>
-             use sunscreen</div>
+           <div  class="weather-details"> 
+            <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+            </ul>
+           </div>
+        
         </h3>
         <ul id="forecast">
             <div class="row">
@@ -104,6 +113,7 @@
         </div> 
         <a href="https://github.com/pam-creator/shecodesProject" id="openSource"> Open-source code </a> by Pamela Lipska
    </div> 
+
   
    <script src="index.js"></script>
 </body>
