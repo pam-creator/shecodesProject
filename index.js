@@ -26,8 +26,13 @@ function showTemperature(response) {
     let humidityElement = document.getElementById("humidity");
     let windElement = document.getElementById("wind");
     let city = document.querySelector('#city');
+    let iconElement = document.querySelector("#icon");
     
-    
+    iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
     descriptionElement.innerHTML = response.data.weather[0].description;
     humidityElement.innerHTML = response.data.main.humidity;
     windElement.innerHTML = Math.round(response.data.wind.speed);
@@ -43,7 +48,7 @@ function search(city){
 
 function handleSubmit(event) {
   event.preventDefault();
-  let cityInputElement = document.querySelector("search-text-input");
+  let cityInputElement = document.querySelector("#search-text-input");
   search(cityInputElement.value);
 };
 function displayFahrenheitTemperature(event) {
