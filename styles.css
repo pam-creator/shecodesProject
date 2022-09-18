@@ -16,28 +16,14 @@ h3{
   left: 300px;
   top: -35px;
   width: max-content;
-  border: 3px solid #FFD6E0;
+  border: 2px solid #FFD6E0;
   padding: 5px;
   background-color: #FFF7F9;
   border-radius: 30px;
   
 }
 
-.currentButton{
-  display: block;
-  float: left;
-  margin-top: auto;
-  width: max-content;
-  font-size: 20px;
-  border-radius: 10px;
-  top: 10px
-}
 
-.uv-index{
-  font-size: smaller;
-  padding: 5px;
-  color: #1C6EC5;
-}
 
 
 .searchbar {
@@ -63,7 +49,7 @@ ul{
 .app-panel{
     font-family: 'Dosis',
       sans-serif;
-    border: 5px solid #6AA9DC;
+    border: 2px solid #6AA9DC;
     padding: 5px;
     margin: 30px auto;
     border-radius: 10px;
@@ -71,12 +57,13 @@ ul{
     
 }
 .currentCity{
-  padding: 30px;
+  padding-top: 15px;
   position: relative;
   width: max-content;
-  background-color: #F8FCFF;
+  background-color: #f9e6fa;
   color: #0b3562;
   margin: 55px;
+ 
  
   line-height: 25px;
 }
@@ -84,10 +71,23 @@ ul{
   font-weight: bolder;
   font-size: 40px;
 }
+.current-weather{
+  font-size: smaller;
+  padding-top: 40px;
+  color: #0b3562;
+  line-height: 40px;
+}
+#temperature{
+  font-size: 50px;
+  padding: 5px;
+}
+
 a{
   font-size: 20px;
 }
-
+.weather-details{
+  color: dimgray;
+}
 
 .rounded-circle{
   border: 3px solid #6AA9DC;
@@ -112,8 +112,9 @@ ul{
 }
 .units{
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
   font-size: 20px;
+  padding: 5px;
 }
   
   
