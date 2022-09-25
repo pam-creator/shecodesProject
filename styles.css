@@ -113,8 +113,8 @@ ul{
 .units{
   position: relative;
   bottom: 15px;
-  font-size: 20px;
-  padding: 5px;
+  font-size: 30px;
+  opacity: 0.45;
 }
   
   
@@ -128,4 +128,11 @@ ul{
 text-align: center;
 font-size: xx-small;
 display: auto block;
+}
+#forecast{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.min-temperature{
+  opacity: 0.45;
 }
